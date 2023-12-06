@@ -1,0 +1,100 @@
+html {
+    font-size: 16px;
+  }
+
+  body {
+    height: 100%;
+    font-family: "Open Sans", sans-serif;
+    padding: 0 25px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  h1{
+  letter-spacing: 1px;
+  }
+
+  header nav{
+    display: flex;
+    align-items: center;
+    border-bottom:solid;
+    border-width: 1px;
+  }
+
+  header nav ul {
+    list-style-type: none;
+    display:inline-flex;
+    margin-left: auto;
+  }
+
+  header li a {
+    font-size: 15px;
+    align-items: center;
+    display: flex;
+    padding: 12px 14px;
+    text-decoration: none;
+  }
+
+ .portrait{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 25px;
+  padding-left: 10px;
+  max-width: 90%;
+  max-height:80%;
+  }
+
+  figcaption{
+   text-align: center;
+   justify-items: center;
+   font-size: 14px;
+   padding-top: 5px;
+
+  }
+
+  .textsection{
+    text-align: justify;
+    max-width: 80%;
+  }
+
+  .music{
+    text-align: justify;
+  }
+
+  .container{
+    display:flex;
+    column-gap: 10px;
+  }
+
+  .button{
+    border-radius: 6px;
+    background-color: white;
+    color: black;
+    border: 2px solid red;
+  }
+  #quote{
+    font-size: 20px;
+    padding-top: 20px;
+    
+  }
+
+  @media only screen and (max-width: 600px) {
+    .container {
+      flex-direction: column;
+    }
+    header nav a {
+      font-size: 14px;
+    }
+    h1{
+      font-size:16px;
+    }
+    h2{
+      font-size:14px;
+    }
+    h3{
+      font-size:12px;
+    }
+
+  }
